@@ -1,3 +1,23 @@
-.content {
-  margin: 40px;
+.app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
+
+.header {
+  width: 100%;
+}
+
+.content {
+  overflow-y: hidden;
+  margin: 40px;
+  flex: 1 1 0;
+  display: flex;
+}
+
+.item {
+  overflow-y: auto;
+  height: 100vh; 
+}
+
+

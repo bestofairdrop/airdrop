@@ -14,10 +14,10 @@ class MainPage extends Component {
   render () {
     return (
       <div className="app">
-        <Header />
+        <Header className="header" />
         <Container>
           <Row className="content">
-            <Col className="collapse-list">
+            <Col className="collapse-list item">
               <CollapseInfo
                 name={'Что такое AirDrop? Что необходимо для участия?'}
                 text={
@@ -106,7 +106,7 @@ class MainPage extends Component {
                 }
               />
             </Col>
-            <Col>
+            <Col className="airdrops item">
               <CollapseInfo
                 name={<div>LOT Token <Badge color="secondary">New</Badge></div>}
                 text={
