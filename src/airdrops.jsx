@@ -2,6 +2,27 @@ import React from 'react';
 
 export const Airdrops = [
   {
+    name: 'AWC Token',
+    text: (
+      <ol>
+        <li>
+          Переходим по ссылке{' '}
+          <a href="http://telegram.me/Medilot_Airdropbot/?start=marie9329">
+            AWC Token
+          </a>
+        </li>
+        <li>
+          Вступаем в телеграм, твиттер - ретвит. Отправляем данные боту.
+        </li>
+        <li>
+          {' '}
+          Всего 2 минуты времени и у Вас 25 AWC
+          <span role="img" aria-label="emoji">🤑</span>
+        </li>
+      </ol>
+    ),
+  },
+  {
     name: 'LOT Token',
     text: (
       <ol>
