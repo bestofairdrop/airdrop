@@ -3,6 +3,7 @@ import {
   Nav,
   Navbar,
   NavItem,
+  NavLink,
   NavbarBrand,
   NavbarToggler,
   Collapse,
@@ -37,7 +38,12 @@ class Header extends Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem />
+              <NavItem>
+                {' '}
+                <NavLink href="tg://proxy?server=jam42.tk&port=443&secret=f4a6ddb7da1515810aba0a093618fc42">
+                  MTProto Прокси для Telegram
+                </NavLink>
+              </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   Боты для покупки / продажи криптовалюты

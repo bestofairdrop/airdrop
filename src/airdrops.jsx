@@ -8,7 +8,7 @@ export const Airdrops = [
         <li>
           Переходим по ссылке{' '}
           <a href="http://telegram.me/Medilot_Airdropbot/?start=marie9329">
-            Quiz Token
+            LOT Token
           </a>
         </li>
         <li>
