@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
-import {Container, Row, Col, Badge} from 'reactstrap';
+import {Container, Row, Col} from 'reactstrap';
 
 import CollapseInfo from './Collapse.jsx';
 import Header from './Header.jsx';
 import '../css/MainPage.css';
+import {Airdrops} from '../airdrops.jsx';
 
 class MainPage extends Component {
   constructor (props) {
@@ -107,76 +108,12 @@ class MainPage extends Component {
               />
             </Col>
             <Col className="airdrops item">
-              <CollapseInfo
-                name={<div>LOT Token <Badge color="secondary">New</Badge></div>}
-                text={
-                  <ol>
-                    <li>
-                      Переходим по ссылке{' '}
-                      <a href="http://telegram.me/Medilot_Airdropbot/?start=marie9329">
-                        LOT Token
-                      </a>
-                    </li>
-                    <li>
-                      Запускаем бота, вступаем в телеграм группу, читаем твиттер, делаем ретвит pinned tweet (закрепленный). Отправляем данные боту.
-                    </li>
-                    <li>
-                      {' '}
-                      Всего 3 минуты времени и у Вас 25 LOT
-                      <span role="img" aria-label="emoji">😊</span>
-                    </li>
-                  </ol>
-                }
-              />
-              <CollapseInfo
-                name={
-                  <div>QUIZ Token <Badge color="secondary">New</Badge></div>
-                }
-                text={
-                  <ol>
-                    <li>
-                      Переходим по ссылке{' '}
-                      <a href="https://www.quizbeat.com/?ref=10661">
-                        QUIZ Token
-                      </a>
-                    </li>
-                    <li>
-                      Жмем "JOIN FOR JACKPOT AIRDROP". Регистрируемся. Подтверждаем эмейл. Нажимаем "EARN POINTS" Вступаем в телеграм, твиттер и заполняем данные.
-                    </li>
-                    <li>
-                      {' '}
-                      Всего 3 минуты времени и у Вас 162 Points
-                      <span role="img" aria-label="emoji">😊</span>
-                    </li>
-                  </ol>
-                }
-              />
-              <CollapseInfo
-                name={
-                  <div>TELE Token <Badge color="secondary">New</Badge></div>
-                }
-                text={
-                  <ol>
-                    <li>
-                      Переходим по ссылке{' '}
-                      <a href="https://miracletele.com/?friend=5782fd6b7fac54">
-                        Tele Token
-                      </a>
-                    </li>
-                    <li>
-                      Регистрируемся, подтверждаем почту. В кабинете Profile > Account info - копируем "Telegram code".Идем к
-                      {' '}
-                      <a href="https://t.me/Miracletelebot">Miracletelebot</a>
-                      . Вступаем в телеграм. Вводим /link > вставить код.
-                    </li>
-                    <li>
-                      {' '}
-                      Всего 3 минуты времени и у Вас 20 TELE
-                      <span role="img" aria-label="emoji">😊</span>
-                    </li>
-                  </ol>
-                }
-              />
+              <tbody>
+                {Airdrops.map ((object, i) => (
+                  <CollapseInfo name={object.name} text={object.text} />
+                ))}
+              </tbody>
+
             </Col>
           </Row>
         </Container>
