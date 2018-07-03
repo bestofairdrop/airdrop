@@ -2,6 +2,27 @@ import React from 'react';
 
 export const Airdrops = [
    {
+    name: 'PRIME Token',
+    text: (
+      <ol>
+        <li>
+          Переходим по ссылке{' '}
+          <a href="https://wn.nr/rQvR9C">
+             PRIME Token
+          </a>
+        </li>
+        <li>
+             Выполняем задания (вступаем в соц.сети,делимся ссылками, постами и. т. д.)
+        </li>
+        <li>
+          {' '}
+          Всего 5 минут времени и у Вас PRIME 
+          <span role="img" aria-label="emoji">🤑</span>
+        </li>
+      </ol>
+    ),
+  },
+   {
     name: 'BBOS Token',
     text: (
       <ol>
