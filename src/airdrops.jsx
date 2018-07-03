@@ -12,14 +12,15 @@ export const Airdrops = [
           </a>
         </li>
         <li>
-             Присоединяемся к Telegram
+             Присоединяемся к 
              {' '}
-           <a href="https://t.me/easytradingplatform">ETT Telegram</a>  
-           Присоединяемся к Twitter 
+           <a href="https://t.me/easytradingplatform">Telegram</a>.
+            {' '}
+           Присоединяемся к 
              {' '}
-           <a href="https://twitter.com/e_t_platform">ETT Twitter</a> 
+           <a href="https://twitter.com/e_t_platform">Twitter</a> 
              {' '}
-           и Facebook <a href="https://www.facebook.com/easytradingplatform1/">ETT Facebook</a> 
+           и {' '}<a href="https://www.facebook.com/easytradingplatform1/">Facebook</a> 
            . Репостим запиненные посты и заполняем форму на сайте
         </li>
         <li>
