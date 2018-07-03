@@ -1,6 +1,35 @@
 import React from 'react';
 
 export const Airdrops = [
+    {
+    name: 'ETT Token',
+    text: (
+      <ol>
+        <li>
+          Переходим по ссылке{' '}
+          <a href="https://airdrop.easytradingplatform.com/register.php?ref=cf6c2be9bb">
+             ETT Token
+          </a>
+        </li>
+        <li>
+             Присоединяемся к Telegram
+             {' '}
+           <a href="https://t.me/easytradingplatform">ETT Telegram</a>  
+           Присоединяемся к Twitter 
+             {' '}
+           <a href="https://twitter.com/e_t_platform">ETT Twitter</a> 
+             {' '}
+           и Facebook <a href="https://www.facebook.com/easytradingplatform1/">ETT Facebook</a> 
+           . Репостим запиненные посты и заполняем форму на сайте
+        </li>
+        <li>
+          {' '}
+          Всего 5 минут времени и у Вас 250 ETT
+          <span role="img" aria-label="emoji">🤑</span>
+        </li>
+      </ol>
+    ),
+  },
    {
     name: 'PRIME Token',
     text: (
