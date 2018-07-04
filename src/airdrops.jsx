@@ -1,6 +1,29 @@
 import React from 'react';
 
 export const Airdrops = [
+     {
+    name: 'MYTC Token',
+    text: (
+      <ol>
+        <li>
+          Переходим по ссылке{' '}
+          <a href="https://t.me/MYTCProject">
+            MYTC Token
+          </a>
+        </li>
+        <li>
+            Присоединяемся к Telegram и заполняем  {' '}
+            <a href="https://airdrops.io/visit/fsm/">гугл форму</a> 
+            В строке Forum Profile Link указываем ссылку на свой профиль в биткоинтолк 
+        </li>
+        <li>
+          {' '}
+          Всего 5 минут времени и у Вас 40 MYTC 
+          <span role="img" aria-label="emoji">🤑</span>
+        </li>
+      </ol>
+    ),
+   },
     {
     name: 'ETT Token',
     text: (
