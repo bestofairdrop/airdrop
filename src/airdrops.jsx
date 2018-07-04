@@ -1,6 +1,33 @@
 import React from 'react';
 
 export const Airdrops = [
+      {
+    name: 'HBB Token',
+    text: (
+      <ol>
+        <li>
+          Переходим по ссылке{' '}
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOUTxIdKIenKBxsF07Xsx7OcRxVDf7t7xhtxJ-KN5KFNq6FA/viewform">
+            HBB Token
+          </a>
+        </li>
+        <li>
+            Присоединяемся к  
+             {' '}
+            <a href="https://t.me/HabibiCoinIO">Telegram</a> 
+             {' '}
+            <a href="https://twitter.com/HabibiCoinIO">Twitter</a>  
+             {' '}
+            <a href="https://www.facebook.com/HabibiCoinIO">Facebook</a> и заполняем гугл форму. 
+        </li>
+        <li>
+          {' '}
+          Всего 5 минут времени и у Вас 200 HBB  
+          <span role="img" aria-label="emoji">🤑</span>
+        </li>
+      </ol>
+    ),
+    },
      {
     name: 'MYTC Token',
     text: (
