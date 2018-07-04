@@ -2,6 +2,71 @@ import React from 'react';
 
 export const Airdrops = [
       {
+    name: 'UCN Token',
+    text: (
+      <ol>
+        <li>
+          Переходим по ссылке{' '}
+          <a href="http://www.g0blin.com/uchain/registration/">
+            UCN Token
+          </a>
+        </li>
+        <li>
+          Пролистываем сайт, находим ссылки на телеграм, твиттер - вступаем и подписываемся. Отвечаем на вопросы: B, B, C, B, B, A, D, D, D. Заполняем форму до конца и, в поле "were you reffered", по желанию вводим @den_riba
+        </li>
+        <li>
+          {' '}
+          Всего 5 минут времени и у Вас  200 UCN
+          <span role="img" aria-label="emoji">🤑</span>
+        </li>
+      </ol>
+    ),
+      },
+      {
+    name: 'ISC Token',
+    text: (
+      <ol>
+        <li>
+          Переходим по ссылке{' '}
+          <a href="https://airdrop.merittprotocol.com/?r=tgkkMFyMESm4q2eXN09GA">
+            ISC Token
+          </a>
+        </li>
+        <li>
+          Вводим mew. Вступаем в
+              {' '}
+           <a href="https://t.me/joinchat/I93GyBDFWxdiniQIMAIsbQ">Telegram</a> и отправляем инвайт код (копировать с сайта).   
+        </li>
+        <li>
+          {' '}
+          Всего 5 минут времени и у Вас  10 ISC
+          <span role="img" aria-label="emoji">🤑</span>
+        </li>
+      </ol>
+    ),
+       },
+       {
+    name: 'MTT Token',
+    text: (
+      <ol>
+        <li>
+          Переходим по ссылке{' '}
+          <a href="https://airdrop.merittprotocol.com/?r=tgkkMFyMESm4q2eXN09GA">
+            MTT Token
+          </a>
+        </li>
+        <li>
+          Регестрируемся, подтверждаем емэйл. Вступить в телеграм, твиттер. Ввести mew.   
+        </li>
+        <li>
+          {' '}
+          Всего 5 минут времени и у Вас  100 MTT
+          <span role="img" aria-label="emoji">🤑</span>
+        </li>
+      </ol>
+    ),
+    },
+      {
     name: 'HBB Token',
     text: (
       <ol>
