@@ -21,6 +21,7 @@ export const Airdrops = [
         </li>
       </ol>
       ),
+       }
       {
     name: 'ACM Token',
     text: (
